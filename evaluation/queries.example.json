@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What are the main eligibility requirements?",
+    "expectedPages": [3, 4]
+  },
+  {
+    "question": "Compare the benefits and limitations described in the PDF.",
+    "expectedPages": [5, 8, 11]
+  },
+  {
+    "question": "Which section explains the exceptions to the stated rule?",
+    "expectedPages": [9]
+  }
+]
