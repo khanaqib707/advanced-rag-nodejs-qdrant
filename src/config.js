@@ -22,7 +22,7 @@ export const config = {
   qdrantApiKey: process.env.QDRANT_API_KEY?.trim() || undefined,
   collectionName: process.env.QDRANT_COLLECTION?.trim() || "doc-collection-v2",
   pdfPath: path.resolve(process.cwd(), process.env.PDF_PATH || "./Cimidona.pdf"),
-  chatModel: process.env.GEMINI_CHAT_MODEL?.trim() || "gemini-2.5-flash",
+  chatModel: process.env.GEMINI_CHAT_MODEL?.trim() || "gemini-3.8-flash",
   embeddingModel: process.env.GEMINI_EMBEDDING_MODEL?.trim() || "gemini-embedding-001",
   jinaApiKey: process.env.JINA_API_KEY?.trim() || undefined,
   jinaRerankerModel:
